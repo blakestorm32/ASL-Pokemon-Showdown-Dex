@@ -1,15 +1,13 @@
-# Primary site
-dex.pokemonshowdown.com {
-	# (Optional) Set your web root
-	# root * /var/www/dex
+# Railway/FrankenPHP site
+http://:{$PORT} {
+	# Serve from repo root (change to `public` if that's your web root)
+	root * .
 
-	# If you're behind a proxy that sets X-Forwarded-Proto: http, bounce to HTTPS (302)
-	@xfproto header X-Forwarded-Proto http
-	redir @xfproto https://dex.pokemonshowdown.com{uri} 302
+	# Enable compression
+	encode gzip zstd
 
-	# Canonical host: www → apex (301)
-	# (We also define a dedicated server block for the www host below.)
-	# redir https://dex.pokemonshowdown.com{uri} permanent
+	# Use FrankenPHP as the PHP handler
+	php_server
 
 	# Deny PUT and DELETE like the Apache <Limit> block did
 	@deny method PUT DELETE
@@ -23,7 +21,7 @@ dex.pokemonshowdown.com {
 	@pokedex path_regexp pokedex ^/pokedex(/.*)?$
 	redir @pokedex / 302
 
-	# Rewrite these app routes to index.php (QSA-equivalent: Caddy keeps the query string)
+	# Rewrite these app routes to index.php (query string preserved)
 	@app path_regexp app ^/(pokemon|items|abilities|tags|egggroups|moves|types|tiers|categories)(/.*)?$
 	rewrite @app /index.php
 
@@ -31,17 +29,6 @@ dex.pokemonshowdown.com {
 	@articles path_regexp articles ^/articles/[a-z0-9]+/?$
 	rewrite @articles /index.php
 
-	# Serve PHP only for *.php (so non-existent static files won’t fall into PHP)
-	@php path *.php
-	php_fastcgi @php php:9000
-	# If you use a Unix socket instead:
-	# php_fastcgi @php unix//run/php/php-fpm.sock
-
-	# Static files (and default 404 for missing files, e.g. apple-touch-icon-precomposed.png)
+	# Serve static files (default 404 for missing assets)
 	file_server
-}
-
-# Canonical host redirect (www → apex)
-www.dex.pokemonshowdown.com {
-	redir https://dex.pokemonshowdown.com{uri} permanent
 }
