@@ -6,11 +6,11 @@
 	<title>Pok&eacute;dex - Pok&eacute;mon Showdown</title>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8" />
-	<link rel="stylesheet" href="//aslpokemonbattling.up.railway.app/style/font-awesome.css" />
+	<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css" />
 	<link rel="stylesheet" href="/theme/panels.css?a38f69c2" />
 	<link rel="stylesheet" href="/theme/main.css?c41294a4" />
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" href="//aslpokemonbattling.up.railway.app/style/utilichart.css?c2de7be5" />
+	<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?c2de7be5" />
 	<link rel="stylesheet" href="/theme/pokedex.css?81b7ab79" />
 
 	<!-- Workarounds for IE bugs to display trees correctly. -->
@@ -29,7 +29,7 @@
 				<li><a class="button nav-last purplebutton" href="//smogon.com/forums/" target="_blank">Forum</a></li>
 			</ul>
 			<ul class="nav nav-play">
-				<li><a class="button greenbutton nav-first nav-last" href="http://aslpokemonbattling.up.railway.app/">Play</a></li>
+				<li><a class="button greenbutton nav-first nav-last" href="http://play.pokemonshowdown.com/">Play</a></li>
 			</ul>
 			<div style="clear:both"></div>
 		</div>
@@ -67,20 +67,20 @@
 	<script src="/js/lib/backbone-min.js"></script>
 	<script src="/js/panels.js?07fae340"></script>
 
-	<script src="//aslpokemonbattling.up.railway.app/config/config.js?0.6347035935726917"></script>
-	<script src="//aslpokemonbattling.up.railway.app/js/battledata.js?0.360482517067259"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/search-index.js?f50d2d05"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/pokedex.js?0d616961"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/teambuilder-tables.js?633a10ed"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/learnsets.js?feba508f"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/moves.js?c78481bf"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/abilities.js?5a9abe15"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/items.js?74eb1bde"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/formats-data.js?3165c075"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/typechart.js?17da8369"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/aliases.js?f8d133cd"></script>
-	<script src="//aslpokemonbattling.up.railway.app/js/battle-dex-search.js?0.5508048809872474"></script>
-	<script src="//aslpokemonbattling.up.railway.app/js/search.js?8d4580c8"></script>
+	<script src="/client/play.pokemonshowdown.com/config/config.js?0.8371608437122713"></script>
+	<script src="/client/play.pokemonshowdown.com/js/battledata.js?0.8974049875288845"></script>
+	<script src="/client/play.pokemonshowdown.com/data/search-index.js?0.6813123959693563"></script>
+	<script src="/client/play.pokemonshowdown.com/data/pokedex.js?0.031763227641357306"></script>
+	<script src="/client/play.pokemonshowdown.com/data/teambuilder-tables.js?0.7676380140626431"></script>
+	<script src="/client/play.pokemonshowdown.com/data/learnsets.js?0.8810321302907658"></script>
+	<script src="/client/play.pokemonshowdown.com/data/moves.js?0.4877140940270164"></script>
+	<script src="/client/play.pokemonshowdown.com/data/abilities.js?0.2883267200633095"></script>
+	<script src="/client/play.pokemonshowdown.com/data/items.js?0.44115677754359006"></script>
+	<script src="/client/play.pokemonshowdown.com/data/formats-data.js?0.12585080838425422"></script>
+	<script src="/client/play.pokemonshowdown.com/data/typechart.js?0.9122516779773353"></script>
+	<script src="/client/play.pokemonshowdown.com/data/aliases.js?0.5282987721737074"></script>
+	<script src="/client/play.pokemonshowdown.com/js/battle-dex-search.js?0.7062450472650079"></script>
+	<script src="/client/play.pokemonshowdown.com/js/search.js?0.42748157615568694"></script>
 	<script src="/js/pokedex.js?609a7d13"></script>
 	<script src="/js/pokedex-pokemon.js?d53c5ed4"></script>
 	<script src="/js/pokedex-moves.js?54ae38ce"></script>
