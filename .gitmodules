@@ -1,0 +1,8 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/blakestorm32/asl-pokemon-showdown-client.git
+	branch = master
+[submodule "vendor/showdown"]
+	path = vendor/showdown
+	url = https://github.com/blakestorm32/asl-pokemon-showdown
+	branch = master
