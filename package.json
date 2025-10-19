@@ -1,0 +1,14 @@
+{
+  "name": "asl-dex-pokemon-showdown-client",
+  "version": "1.0.0",
+  "description": "Custom Pokémon Showdown client with FrankenPHP runtime",
+  "main": "index.js",
+  "scripts": {
+    "build": "./build"
+  },
+  "dependencies": {
+    "showdown": "^2.1.0"
+  },
+  "license": "AGPL-3.0",
+  "private": true
+}
