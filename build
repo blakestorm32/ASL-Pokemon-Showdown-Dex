@@ -13,6 +13,9 @@ const Config = require('./config/config');
 process.chdir(__dirname);
 
 if (process.argv[2] === 'full') {
+	if (!fs.existsSync('client')) {
+		child_process.execSync('git clone https://github.com/blakestorm32/asl-pokemon-showdown-client client', {});
+	}
 	child_process.execSync('client/build-tools/build-indexes', {stdio: 'inherit'});
 }
 
