@@ -1,0 +1,48 @@
+<h1 id="submoves">Submoves</h1>
+		<p>There are several situations in which a Pok&eacute;mon might use a move other than the one you selected at the beginning of the turn.</p>
+		<p>These are split into two separate situations: 1. running an entirely new move action, and 2. using a move directly.</p>
+		<h2 id="usingamovedirectly">Using a move directly</h2>
+		<p>Using a move directly is very common. Most commonly, moves that call other moves:</p>
+		<ul>
+		<li><a href="/moves/metronome" data-target="push">Metronome (move)</a> uses a random move</li>
+		<li><a href="/moves/sleeptalk" data-target="push">Sleep Talk</a> uses a random move the user knows</li>
+		<li><a href="/moves/assist" data-target="push">Assist</a> uses a random move the user's team knows</li>
+		<li><a href="/moves/copycat" data-target="push">Copycat</a> copies the last move used in the battle</li>
+		<li><a href="/moves/mirrormove" data-target="push">Mirror Move</a> copies the last move used by the target</li>
+		<li><a href="/moves/mefirst" data-target="push">Me First</a> copies the target's chosen damaging move action</li>
+		<li><a href="/moves/snatch" data-target="push">Snatch</a> copies and prevents the target's chosen status move</li>
+		<li><a href="/moves/naturepower" data-target="push">Nature Power</a> uses a move depending on terrain</li>
+		</ul>
+		<p>All of the above moves have exceptions; most notably, they can't call each other.</p>
+		<p>And other effects that call other moves:</p>
+		<ul>
+		<li><a href="/abilities/magicbounce" data-target="push">Magic Bounce</a> reflects status moves</li>
+		<li><a href="/moves/magiccoat" data-target="push">Magic Coat</a> gives a turn of Magic Bounce</li>
+		</ul>
+		<p>Using a move directly skips a lot of checks that are normally done during turn order. Most obviously, the move is used immediately, bypassing priority order, which can be quite powerful for moves that would be unbalanced if they didn't go last (such as Dragon Tail, Whirlwind, or Focus Punch).</p>
+		<p>In addition, it skips a lot of effects that would prevent a move from executing (you can't get fully paralyzed after using Metronome but before using the move chosen by Metronome). These include:</p>
+		<ul>
+		<li>Sleep</li>
+		<li>Full paralysis</li>
+		<li>Flinching</li>
+		<li>Immobilizing from <a href="/moves/attract" data-target="push">Attract</a></li>
+		<li>Hitting yourself in confusion</li>
+		<li>Being out of PP</li>
+		</ul>
+		<p>It also skips other consequences of move actions, such as:</p>
+		<ul>
+		<li>Dancer (a directly called dance move does not trigger Dancer)</li>
+		<li>PP deduction</li>
+		</ul>
+		<p>In PS source code, you will see <code>useMove</code> when direct move usage happens.</p>
+		<h2 id="addingorreplacingamoveaction">Adding or replacing a move action</h2>
+		<p>Running an entirely new move action is very rare, and done by:</p>
+		<ul>
+		<li><a href="/moves/instruct" data-target="push">Instruct</a> adds an additional move action</li>
+		<li><a href="/abilities/dancer" data-target="push">Dancer</a> adds an additional move action</li>
+		<li><a href="/moves/encore" data-target="push">Encore</a> replaces the chosen move action with the previous turn's action (without changing timing)</li>
+		<li><a href="/moves/pursuit" data-target="push">Pursuit</a> replaces the chosen move action with an earlier action</li>
+		</ul>
+		<p>Instruct and Dancer are unique in that they allow more than one move action per turn.</p>
+		<p>Unlike a direct move usage, these are full move actions, and include all the checks skipped above, as well as PP deduction. The one exception is Dancer, which includes everything else but excludes PP deduction.</p>
+		<p>In PS source code, you will see <code>runMove</code> when a full move action happens.</p>
