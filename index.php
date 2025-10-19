@@ -67,6 +67,7 @@
 	<script src="/js/lib/backbone-min.js"></script>
 	<script src="/js/panels.js?07fae340"></script>
 
+	<script src="/client/play.pokemonshowdown.com/js/client.min.js?v=0"></script>
 	<script src="/client/play.pokemonshowdown.com/config/config.js?0.8371608437122713"></script>
 	<script src="/client/play.pokemonshowdown.com/js/battledata.js?0.8974049875288845"></script>
 	<script src="/client/play.pokemonshowdown.com/data/search-index.js?0.6813123959693563"></script>
