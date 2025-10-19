@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="/theme/panels.css?a38f69c2" />
 	<link rel="stylesheet" href="/theme/main.css?c41294a4" />
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" href="//aslpokemonbattling.up.railway.app/style/utilichart.css?0.9034588397471" />
+	<link rel="stylesheet" href="//aslpokemonbattling.up.railway.app/style/utilichart.css?0.04540526840371162" />
 	<link rel="stylesheet" href="/theme/pokedex.css?81b7ab79" />
 
 	<!-- Workarounds for IE bugs to display trees correctly. -->
@@ -67,20 +67,20 @@
 	<script src="/js/lib/backbone-min.js"></script>
 	<script src="/js/panels.js?07fae340"></script>
 
-	<script src="//aslpokemonbattling.up.railway.app/config/config.js?0.0845804801306822"></script>
-	<script src="//aslpokemonbattling.up.railway.app/js/battledata.js?0.3974158274772279"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/search-index.js?0.8627397626526132"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/pokedex.js?0.471682519480932"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/teambuilder-tables.js?0.6216784991459912"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/learnsets.js?0.037065259463062494"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/moves.js?0.3533550259571363"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/abilities.js?0.6686782800356079"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/items.js?0.03437077700797242"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/formats-data.js?0.5998654637703815"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/typechart.js?0.15675398404166052"></script>
-	<script src="//aslpokemonbattling.up.railway.app/data/aliases.js?0.29502320020256523"></script>
-	<script src="//aslpokemonbattling.up.railway.app/js/battle-dex-search.js?0.14893189330169165"></script>
-	<script src="//aslpokemonbattling.up.railway.app/js/search.js?0.5775042765046858"></script>
+	<script src="//aslpokemonbattling.up.railway.app/config/config.js?0.351586180981061"></script>
+	<script src="//aslpokemonbattling.up.railway.app/js/battledata.js?0.321468790034247"></script>
+	<script src="//aslpokemonbattling.up.railway.app/data/search-index.js?0.7141785317183555"></script>
+	<script src="//aslpokemonbattling.up.railway.app/data/pokedex.js?0.5700566123430848"></script>
+	<script src="//aslpokemonbattling.up.railway.app/data/teambuilder-tables.js?0.6435491459068114"></script>
+	<script src="//aslpokemonbattling.up.railway.app/data/learnsets.js?0.8910814306244303"></script>
+	<script src="//aslpokemonbattling.up.railway.app/data/moves.js?0.9841787495266325"></script>
+	<script src="//aslpokemonbattling.up.railway.app/data/abilities.js?0.6566203497177443"></script>
+	<script src="//aslpokemonbattling.up.railway.app/data/items.js?0.8712615430735073"></script>
+	<script src="//aslpokemonbattling.up.railway.app/data/formats-data.js?0.13252047775015807"></script>
+	<script src="//aslpokemonbattling.up.railway.app/data/typechart.js?0.390187813443887"></script>
+	<script src="//aslpokemonbattling.up.railway.app/data/aliases.js?0.7748635431395421"></script>
+	<script src="//aslpokemonbattling.up.railway.app/js/battle-dex-search.js?0.13000792496005298"></script>
+	<script src="//aslpokemonbattling.up.railway.app/js/search.js?0.2997560108378452"></script>
 	<script src="/js/pokedex.js?609a7d13"></script>
 	<script src="/js/pokedex-pokemon.js?d53c5ed4"></script>
 	<script src="/js/pokedex-moves.js?54ae38ce"></script>
