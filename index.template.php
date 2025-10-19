@@ -66,7 +66,7 @@
 	<script src="/js/lib/lodash.min.js"></script>
 	<script src="/js/lib/backbone-min.js"></script>
 	<script src="/js/panels.js?"></script>
-
+	<script src="/client/play.pokemonshowdown.com/js/client.js?"></script>
 	<script src="/client/play.pokemonshowdown.com/config/config.js?"></script>
 	<script src="/client/play.pokemonshowdown.com/js/battledata.js?"></script>
 	<script src="/client/play.pokemonshowdown.com/data/search-index.js?"></script>

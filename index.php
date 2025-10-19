@@ -66,22 +66,21 @@
 	<script src="/js/lib/lodash.min.js"></script>
 	<script src="/js/lib/backbone-min.js"></script>
 	<script src="/js/panels.js?07fae340"></script>
-
-	<script src="/client/play.pokemonshowdown.com/js/client.min.js?v=0"></script>
-	<script src="/client/play.pokemonshowdown.com/config/config.js?0.8371608437122713"></script>
-	<script src="/client/play.pokemonshowdown.com/js/battledata.js?0.8974049875288845"></script>
-	<script src="/client/play.pokemonshowdown.com/data/search-index.js?0.6813123959693563"></script>
-	<script src="/client/play.pokemonshowdown.com/data/pokedex.js?0.031763227641357306"></script>
-	<script src="/client/play.pokemonshowdown.com/data/teambuilder-tables.js?0.7676380140626431"></script>
-	<script src="/client/play.pokemonshowdown.com/data/learnsets.js?0.8810321302907658"></script>
-	<script src="/client/play.pokemonshowdown.com/data/moves.js?0.4877140940270164"></script>
-	<script src="/client/play.pokemonshowdown.com/data/abilities.js?0.2883267200633095"></script>
-	<script src="/client/play.pokemonshowdown.com/data/items.js?0.44115677754359006"></script>
-	<script src="/client/play.pokemonshowdown.com/data/formats-data.js?0.12585080838425422"></script>
-	<script src="/client/play.pokemonshowdown.com/data/typechart.js?0.9122516779773353"></script>
-	<script src="/client/play.pokemonshowdown.com/data/aliases.js?0.5282987721737074"></script>
-	<script src="/client/play.pokemonshowdown.com/js/battle-dex-search.js?0.7062450472650079"></script>
-	<script src="/client/play.pokemonshowdown.com/js/search.js?0.42748157615568694"></script>
+	<script src="/client/play.pokemonshowdown.com/js/client.js?0.23809137824327298"></script>
+	<script src="/client/play.pokemonshowdown.com/config/config.js?0.08714094108505344"></script>
+	<script src="/client/play.pokemonshowdown.com/js/battledata.js?0.7387920131954815"></script>
+	<script src="/client/play.pokemonshowdown.com/data/search-index.js?0.0751530790344761"></script>
+	<script src="/client/play.pokemonshowdown.com/data/pokedex.js?0.9869472173532468"></script>
+	<script src="/client/play.pokemonshowdown.com/data/teambuilder-tables.js?0.9900099127054602"></script>
+	<script src="/client/play.pokemonshowdown.com/data/learnsets.js?0.07419145999289212"></script>
+	<script src="/client/play.pokemonshowdown.com/data/moves.js?0.2594151114572909"></script>
+	<script src="/client/play.pokemonshowdown.com/data/abilities.js?0.0774547174861171"></script>
+	<script src="/client/play.pokemonshowdown.com/data/items.js?0.5147319820103222"></script>
+	<script src="/client/play.pokemonshowdown.com/data/formats-data.js?0.29877482188319027"></script>
+	<script src="/client/play.pokemonshowdown.com/data/typechart.js?0.28965932392477245"></script>
+	<script src="/client/play.pokemonshowdown.com/data/aliases.js?0.6941833160497088"></script>
+	<script src="/client/play.pokemonshowdown.com/js/battle-dex-search.js?0.9071790071584305"></script>
+	<script src="/client/play.pokemonshowdown.com/js/search.js?0.7538698434158029"></script>
 	<script src="/js/pokedex.js?609a7d13"></script>
 	<script src="/js/pokedex-pokemon.js?d53c5ed4"></script>
 	<script src="/js/pokedex-moves.js?54ae38ce"></script>
